@@ -186,4 +186,4 @@ setTimeout(
 // dynamic copyright year
 
 const date = new Date();
-$(".date").innerHTML=date.getFullYear();
+$(".date").html(date.getFullYear());
