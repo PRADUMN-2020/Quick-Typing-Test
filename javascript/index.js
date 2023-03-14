@@ -182,3 +182,7 @@ setTimeout(
   function() {
     logoAnimation();
   }, 1000);
+
+// for copyright date
+const date = new Date();
+$(".date").innerHTML=date.getFullYear();
